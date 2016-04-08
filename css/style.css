@@ -1,0 +1,85 @@
+/*
+ * style.css
+ */
+html, body{
+width: 100%;
+padding: 0;
+margin: 0;
+min-height: 320px;
+min-width: 240px;
+}
+.header .navbar{
+background-color: #4acaa8;
+border:none;
+border-radius: 0;
+}
+.header .navbar .container-fluid{
+  border-radius: 0;
+}
+
+.header .navbar-brand{
+background-color: white;
+}
+.header .navbar-toggle{
+border-color:white;
+}
+.header .navbar-default .navbar-toggle .icon-bar{
+background-color: white;
+}
+.header .navbar-header {
+    float: none;
+}
+.header .navbar-toggle {
+    display: block;
+}
+.header .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.header .navbar-collapse.collapse {
+    display: none!important;
+}
+.header .navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+}
+.header .btn-close{
+  position: relative;
+  float: right;
+  padding: 7px 14px 5px 14px;
+  margin-top: 8px;
+  margin-right: 15px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: #4acaa8;
+  border-color: white;
+}
+.corpo h4{
+  text-align: justify;
+  color: gray;
+}
+.corpo{
+  font-size: 140%;
+}
+.corpo .btn-success{
+  background-color: #4acaa8;
+  border-color: #4acaa8;
+  margin-bottom: 10px;
+}
+.glyphicon-remove{
+  color: white;
+}
+.input-group-addon, .form-control{
+  border-radius: 0;
+}
+.pergunta{
+  text-align: center !important;
+  color:black !important;
+  margin-top: 40px;
+}
+.bar-header{
+  margin-top: 70px;
+  padding: 0;
+}

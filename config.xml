@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.appery.project213988" version="8.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Feedback Hunter</name>
+    <description>
+        Aplicativo utilizado para realizar pesquisas de satisfação do cliente.
+    </description>
+    <author email="contato@feedbackhunter.com.br" href="http://feedbackhunter.com.br">
+        Feedback Hunter team
+    </author>
+    <content src="index.html" />
+    <preference name="Fullscreen" value="false" />
+    <preference name="Orientation" value="portrait" />
+    <icon src="res/icons/icon.png" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="FadeSplashScreenDuration" value="1000"/>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <!-- you can use any density that exists in the Android project -->
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <preference name="EnableViewportScale" value="false" />
+        <!-- iOS 8.0+ -->
+        <!-- iPhone 6 Plus  -->
+        <icon src="res/ios/180x180.png" width="180" height="180" />
+        <!-- iOS 7.0+ -->
+        <!-- iPhone / iPod Touch  -->
+        <icon src="res/ios/60x60-icon.png" width="60" height="60" />
+        <icon src="res/ios/120x120-icon.png" width="120" height="120" />
+        <!-- iPad -->
+        <icon src="res/ios/76x76-icon.png" width="76" height="76" />
+        <icon src="res/ios/152x152-icon.png" width="152" height="152" />
+        <!-- iOS 6.1 -->
+        <!-- Spotlight Icon -->
+        <icon src="res/ios/icon-40.png" width="40" height="40" />
+        <icon src="res/ios/icon-40@2x.png" width="80" height="80" />
+        <!-- iPhone / iPod Touch -->
+        <icon src="res/ios/114x114-icon.png" width="114" height="114" />
+        <!-- iPad -->
+        <icon src="res/ios/72x72-icon.png" width="72" height="72" />
+        <icon src="res/ios/144x144-icon.png" width="144" height="144" />
+    </platform>
+</widget>
