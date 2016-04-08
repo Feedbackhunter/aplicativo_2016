@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.appery.project213988" version="8.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="io.appery.app.FeedbackHunter" version="8.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Feedback Hunter</name>
     <description>
         Aplicativo utilizado para realizar pesquisas de satisfação do cliente.
